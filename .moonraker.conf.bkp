@@ -52,3 +52,10 @@ origin = https://github.com/KlipperScreen/KlipperScreen.git
 path = /home/hartk/KlipperScreen
 type = git_repo
 
+[update_manager printer-cfg]
+managed_services = klipper
+origin = https://github.com/Hartk-PrinterConfigs/FB_Micron.git
+path = /home/hartk/printer_data/config
+primary_branch = master
+type = git_repo
+
